@@ -3,107 +3,50 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>La Trattoria - Cardápio</title>
+    <title>Siri Cascudo - Cardápio Online</title>
     <link rel="stylesheet" href="styles.css">
-    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Lato:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
-        <h1>La Trattoria</h1>
-        <p>Autêntica culinária italiana</p>
+        <h1>Siri Cascudo</h1>
+        <p>O melhor da culinária praiana!</p>
     </header>
 
-    <section class="menu">
-        <h2>Cardápio</h2>
+    <main>
+        <section id="cardapio">
+            <div class="item">
+                <img src="https://static.itdg.com.br/images/1200-675/eea406f2f27e48e0621ad4e23f5eb950/284005-original.jpg" alt="Bolinho de Siri">
+                <h3>Bolinho de Siri</h3>
+                <div class="descricao">
+                    <p>Deliciosos bolinhos de siri servidos com molho especial.</p>
+                    <p><strong>Ingredientes:</strong> Siri, farinha de trigo, ovos, cebola, coentro, pimenta.</p>
+                </div>
+            </div>
 
-        <!-- Categoria: Entradas -->
-        <div class="category">
-            <h3>Entradas</h3>
             <div class="item">
-                <h4>Bruschetta Clássica</h4>
-                <p>Pão italiano grelhado com tomate fresco, manjericão e azeite de oliva.</p>
-                <p class="price">R$ 18,00</p>
-                <img src="bruschetta.jpg" alt="Bruschetta">
+                <img src="https://receitasdepesos.com.br/wp-content/uploads/2024/06/camarao-967x720.jpg.webp" alt="Camarão Empanado">
+                <h3>Camarão Empanado</h3>
+                <div class="descricao">
+                    <p>Camarões crocantes empanados, acompanhados de molho tártaro.</p>
+                    <p><strong>Ingredientes:</strong> Camarão, farinha de rosca, ovos, farinha de trigo, temperos.</p>
+                </div>
             </div>
-            <div class="item">
-                <h4>Carpaccio de Carne</h4>
-                <p>Finas fatias de carne crua com rúcula, parmesão e molho de mostarda.</p>
-                <p class="price">R$ 22,00</p>
-                <img src="carpaccio.jpg" alt="Carpaccio">
-            </div>
-        </div>
 
-        <!-- Categoria: Massas -->
-        <div class="category">
-            <h3>Massas</h3>
             <div class="item">
-                <h4>Spaghetti à Carbonara</h4>
-                <p>Spaghetti com molho cremoso de ovos, queijo parmesão e bacon.</p>
-                <p class="price">R$ 38,00</p>
-                <img src="carbonara.jpg" alt="Spaghetti Carbonara">
+                <img src="https://cdn0.tudoreceitas.com/pt/posts/8/7/3/moqueca_de_camarao_378_orig.jpg" alt="Moqueca de Camarão">
+                <h3>Moqueca de Camarão</h3>
+                <div class="descricao">
+                    <p>Moqueca tradicional com camarões, coentro, leite de coco e pimentão.</p>
+                    <p><strong>Ingredientes:</strong> Camarão, leite de coco, pimentão, cebola, tomate, coentro.</p>
+                </div>
             </div>
-            <div class="item">
-                <h4>Lasagna à Bolonhesa</h4>
-                <p>Camadas de massa, molho de carne e queijo derretido.</p>
-                <p class="price">R$ 42,00</p>
-                <img src="lasagna.jpg" alt="Lasagna">
-            </div>
-        </div>
 
-        <!-- Categoria: Pizzas -->
-        <div class="category">
-            <h3>Pizzas</h3>
-            <div class="item">
-                <h4>Pizza Margherita</h4>
-                <p>Molho de tomate, mussarela fresca, manjericão e azeite de oliva.</p>
-                <p class="price">R$ 45,00</p>
-                <img src="margherita.jpg" alt="Pizza Margherita">
-            </div>
-            <div class="item">
-                <h4>Pizza Quattro Formaggi</h4>
-                <p>Mussarela, gorgonzola, parmesão e provolone.</p>
-                <p class="price">R$ 50,00</p>
-                <img src="quattro-formaggi.jpg" alt="Pizza Quattro Formaggi">
-            </div>
-        </div>
-
-        <!-- Categoria: Sobremesas -->
-        <div class="category">
-            <h3>Sobremesas</h3>
-            <div class="item">
-                <h4>Tiramisù</h4>
-                <p>Clássica sobremesa italiana com café, mascarpone e cacau.</p>
-                <p class="price">R$ 20,00</p>
-                <img src="tiramisu.jpg" alt="Tiramisù">
-            </div>
-            <div class="item">
-                <h4>Panna Cotta</h4>
-                <p>Sobremesa cremosa com calda de frutas vermelhas.</p>
-                <p class="price">R$ 18,00</p>
-                <img src="panna-cotta.jpg" alt="Panna Cotta">
-            </div>
-        </div>
-
-        <!-- Categoria: Bebidas -->
-        <div class="category">
-            <h3>Bebidas</h3>
-            <div class="item">
-                <h4>Vinho Tinto Chianti</h4>
-                <p>Vinho tinto italiano da região da Toscana.</p>
-                <p class="price">R$ 120,00 (garrafa)</p>
-                <img src="chianti.jpg" alt="Vinho Chianti">
-            </div>
-            <div class="item">
-                <h4>Limoncello</h4>
-                <p>Licor italiano de limão, servido gelado.</p>
-                <p class="price">R$ 15,00 (dose)</p>
-                <img src="limoncello.jpg" alt="Limoncello">
-            </div>
-        </div>
-    </section>
+            <!-- Adicione mais itens aqui -->
+        </section>
+    </main>
 
     <footer>
-        <p>&copy; 2023 La Trattoria. Todos os direitos reservados.</p>
+        <p>&copy; 2023 Siri Cascudo. Todos os direitos reservados.</p>
     </footer>
 </body>
 </html>
