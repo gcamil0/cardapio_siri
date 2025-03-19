@@ -1,13 +1,20 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body {
     font-family: 'Roboto', sans-serif;
-    background-color: #f0f8ff; 
+    background-color: #f0f8ff;
     color: #ffffff;
     margin: 0;
     padding: 0;
 }
 
 header {
-    background-color: #1e90ff; 
+    background-color: #1e90ff;
     color: white;
     text-align: center;
     padding: 20px;
@@ -52,7 +59,7 @@ main {
 
 .item h3 {
     margin: 10px 0;
-    color: #000000; 
+    color: #000000;
 }
 
 .descricao {
@@ -78,11 +85,36 @@ main {
 }
 
 footer {
-    background-color: #1e90ff; 
+    background-color: #1e90ff;
     color: white;
     text-align: center;
     padding: 10px;
-    position:static;
+    position: static;
     bottom: 0;
     width: 100%;
+}
+
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 2.5em;
+    }
+
+    .item {
+        width: 45%;
+    }
+}
+
+
+@media (max-width: 480px) {
+    header h1 {
+        font-size: 2em; 
+    }
+
+    .item {
+        width: 100%; 
+    }
+
+    #cardapio {
+        gap: 10px; 
+    }
 }
